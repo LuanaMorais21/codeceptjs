@@ -35,3 +35,11 @@ Acesse a pasta de `projeto` e no terminal, para rodar todos os testes, digite:
 
 `npx codeceptjs run -- steps`
 
+Caso queira rodar somente uma página de teste, por exemplo a página de login, utilize:
+
+`npx codeceptjs run login_test.js`
+
+Se desejar rodar apenas um cenário de teste, utilize as tags cadastradas em cada cenário. Por exemplo:
+
+`npx codeceptjs run --grep @sucesso`
+
